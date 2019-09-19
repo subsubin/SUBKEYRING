@@ -1,0 +1,271 @@
+@charset "UTF-8";
+@font-face {
+	font-family: 'yg-jalnan';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NanumSquareRound';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	font-family: NanumSquareRound;
+	size: 20px;
+}
+
+/* 파란색 테두리 */
+input:focus {
+	outline: none;
+}
+
+/* a 태그  */
+a {
+	text-decoration: none;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #6468a0;
+}
+
+/* 기타 디자인 - 테이블 */
+table, div {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* [join_P.html] */
+#join_PH {
+	width: 60%;
+	font-size: 30px;
+	color: #6468a0;
+	/* background-color : #6468a0; */
+}
+
+#join {
+	width: 70%;
+	height: 100px;
+	margin: auto;
+	text-align: center;
+}
+
+table#join td {
+	padding: 1.5%;
+}
+
+input[type=text] {
+	border: none;
+	border-bottom: 2px solid #6468a0;
+}
+
+input[type=password] {
+	border: none;
+	border-bottom: 2px solid #6468a0;
+}
+
+input[type=button] {
+	background-color: white;
+	border: none;
+	color: #6468a0;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	border-radius: 8px;
+}
+
+input[type=button]:hover {
+	background-color: #6468a0;
+	border: none;
+	color: white;
+}
+
+input[type=submit] {
+	background-color: white;
+	border: none;
+	color: #6468a0;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	border-radius: 8px;
+}
+
+input[type=submit]:hover {
+	background-color: #6468a0;
+	border: none;
+	color: white;
+}
+
+/* [login_P.html] */
+#login_PH {
+	width: 60%;
+	font-size: 30px;
+	color: #6468a0;
+	/* background-color : #6468a0; */
+}
+
+#login {
+	width: 70%;
+	height: 100px;
+	margin: auto;
+	text-align: center;
+}
+
+table#login td {
+	padding: 1.5%;
+}
+
+/* [Menu_F.jsp] */
+#p_f{
+	font-size : 15px;
+	color : white;
+}
+
+/* [mypage_P.jsp] */
+#mp_PH{
+	width : 60%;
+	font-size : 30px;
+	color : #6468a0;
+	/* background-color : #6468a0; */
+}
+
+#mp_A{
+	width:80%;
+	height: 100px;
+	margin: auto;
+	text-align: center;
+	font-size:18px;
+}
+#mp_B{
+	width:80%;
+	height: 100px;
+	margin: auto;
+	text-align: center;
+	font-size:18px;
+}
+table#mp_B td{padding:1.5%;}
+
+input[type=reset]{
+	background-color: white; 
+	border: none;
+	color: #6468a0; 
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	border-radius: 8px;
+}
+input[type=reset]:hover{
+	background-color: #6468a0;
+	border: none;
+	color: white;
+}
+
+/* [shopb_P.jsp] */
+#shop_PH{
+	width : 60%;
+	font-size : 30px;
+	color : #6468a0;
+	/* background-color : #6468a0; */
+}
+
+#shop{
+	width:70%;
+	height: 100px;
+	margin: auto;
+	text-align: center;
+}
+table#shop td{padding:1.5%;}
+table#shop th{border-bottom: 3px solid #6468a0;padding:1.5%;}
+
+
+#Pall_PH {
+	width: 60%;
+	font-size: 30px;
+	color: #6468a0;
+	/* background-color : #6468a0; */
+}
+
+#goods{
+	width:70%;
+	height: 100px;
+	margin: auto;
+	text-align: center;
+}
+
+#detail{
+	width:85%;
+	height: 100px;
+	margin: auto;
+	text-align: center;
+}
+
+/* Pbuy_P.jsp */
+#Pb {
+	width: 60%;
+	font-size: 30px;
+	color: #6468a0;
+	/* background-color : #6468a0; */
+}
+
+#card {
+	font-size : 25px;
+	width : 40%;
+	height : 200px;
+	background : white;
+	border : 1px solid #6468a0;
+}
+#card:hover {
+	background : #6468a0;
+	color : white;
+}
+
+#bank {
+	font-size : 25px;
+	width : 40%;
+	height : 200px;
+	background : white;
+	border : 1px solid #6468a0;
+}
+#bank:hover {
+	background : #6468a0;
+	color : white;
+}
+
+#expain {
+	font-size : 15px;
+}
+
+#ADMIN {
+	text-align:center;
+	width: 60%;
+}
+
+table #ADMIN th {
+	font-size: 20px;
+}

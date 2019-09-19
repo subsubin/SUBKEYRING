@@ -1,0 +1,51 @@
+﻿---------------------------------- CSS ---------------------------------
+font.css 		: 페이지의 폰트뿐만 아니라 디자인 요소를 포함한 파일
+
+----------------------------- HTML & JSP ----------------------------
+CMain.jsp 		: 메인화면을 분리해 놓은 파일, Main.jsp Menu_F.jsp Menu_M.jsp Menu_T.jsp 를 연결
+
+index.jsp 		: 프로젝트 실행파일, Main.jsp 를 CMain.jsp에 연결
+
+join_P.html 	: 회원가입 폼 구성
+join_P.jsp 		: 회원가입 폼 DB 작업
+join.jsp 		: CMain.jsp 에 join_P.html 연결
+
+login_P.html 	: 로그인 폼 구성
+login_P.jsp 	: 로그인 폼 DB 작업
+login.jsp 		: CMain.jsp 에 login_P.html 연결
+
+Main.jsp 		: 메인화면에 들어갈 내용 구성
+
+Menu_F.jsp 		: Footer, 개발자의 이메일과 기타 정보
+Menu_M.jsp 		: Menu, 메뉴 구성
+Menu_T.jsp 		: Top, 로고 구성
+
+mypage_P.jsp 	: 마이페이지의 폼, 회원의 DB를 불러와서 구성
+mypage_RE.jsp 	: 회원의 정보를 수정할 수 있는 페이지
+mypage.jsp 		: CMain.jsp 에 mypage_P.jsp 연결
+
+Pall_P.jsp		: 모든 상품을 DB에서 불러와서 구성
+Pall.jsp		: CMain.jsp 에 Pall_P.jsp 연결
+
+Pbest_P.jsp		: 많이 판매된 상품을 DB에서 불러와서 구성
+Pbest.jsp		: CMain.jsp 에 Pbest_P.jsp 연결
+
+Pnew_P.jsp		: 새 상품을 DB에서 불러와서 구성
+Pnew.jsp		: CMain.jsp 에 Pnew_P.jsp 연결
+
+Petc_P.jsp		: 기타 상품을 DB에서 불러와서 구성
+Petc.jsp		: CMain.jsp 에 Petc_P.jsp 연결
+
+Pdtl_Deta.jsp	: 상품 상세 설명을 DB에서 불러와서 구성
+Pdtl_P.jsp		: 선택한 상품, 수량을 장바구니 DB에 insert
+Pdtl.jsp		: CMain.jsp 에 Pdtl_P.jsp 연결
+
+shopb_D.jsp		: 장바구니 항목의 삭제 작업을 진행하는 페이지
+shopb_BD.jsp	: 장바구니 항목에 대한  DB 작업하는 페이지
+shopb_P.jsp 	: 장바구니의 폼, 장바구니 DB를 불러와서 구성
+shopb.jsp 		: CMain.jsp 에 shopb_P.jsp 연결
+
+admin_myp_P.jsp	: 회원들의 명단, 상품명단, 테이블 정보 위치를 DB에 불러와서 구성
+admin_myp_D.jsp	: 회원 명단 삭제하는 페이지
+admin_myg_D.jsp	: 상품 명단 삭제하는 페이지
+admin_myp.jsp	: CMain.jsp 에 admin_myp_P.jsp 연결
